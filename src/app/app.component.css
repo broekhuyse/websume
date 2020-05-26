@@ -1,0 +1,28 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bio, .run-details {
+  box-sizing: border-box;
+  padding: 0 1em;
+  /* this scroll will keep both areas always visible */
+  overflow: auto;
+}
+
+.bio {
+  flex-grow: 1;
+}
+
+.run-details {
+  /* define a minumum size to your console */
+  min-height: 200px;
+}

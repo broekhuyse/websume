@@ -1,0 +1,24 @@
+body {
+  background: #fff;
+}
+.container {
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.section {
+  position: relative;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.details {
+  padding: 5px;
+  background: rgba(150, 105, 201, 0.3);
+}
+
+.link a {
+  color: rgba(217, 114, 46);
+  text-decoration: none;
+}

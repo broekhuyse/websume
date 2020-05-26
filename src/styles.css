@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+.body-font {
+  font-family: 'Ubuntu', sans-serif;
+}
+body {
+  background-color: #121212;
+  color: #d4d4d4;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.section {
+  margin-top: 10px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
